@@ -1,7 +1,8 @@
 # NginxWindows
 
 #### 介绍
-Nginx高性能的HTTP和反向代理web服务器的Windows平台版本和相关配置
+    Nginx高性能的HTTP和反向代理web服务器的Windows平台版本和相关配置
+    版本：1.18.0
 
 #### 软件架构
 软件架构说明
@@ -9,22 +10,19 @@ Nginx高性能的HTTP和反向代理web服务器的Windows平台版本和相关�
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  直接下载下来压缩包解压缩 或者 git clone
+2.  修改conf目录里的nginx.conf
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  在终端进入到解压后的根目录
+2.  验证配置文件的准确性：  nginx -t
+3.  启动：               nginx -s start
+4.  重启：               nginx -s reload
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  萨达木·沙地克（Sadam·Sadik）
 
 
 #### 特技
