@@ -15,15 +15,33 @@
 
 #### 使用说明
 
-1.  在终端进入到解压后的根目录
-2.  验证配置文件的准确性：  nginx -t
-3.  启动：               nginx -s start
-4.  重启：               nginx -s reload
+    1.  在终端进入到解压后的根目录
+    2.  启动（nginx-windows)      start nginx
+    3.  验证配置文件的准确性：      nginx -t
+    4.  启动：                     nginx -s start
+    5.  配置文件修改重载：          nginx -s reload
+    6.  快速停止或关闭              nginx -s stop
+    7.  正常停止或关闭              nginx -s quit
+    8.  查看nginx版本号             nignx -V
+    9.  查看帮助信息                nginx -h
+    10.  打开日志文件               nginx -s reopen
+
 
 #### 参与贡献
 
-1.  萨达木·沙地克（Sadam·Sadik）
+1.  萨达木·沙地克（Sadam·Sadik）1903249375@qq.com
 
+#### 报错解答
+报错1：
+
+        nginx: [emerg] CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+原因1：
+
+        因为nginx被安装在了中文目录，或者路径中有中文汉字，所以nginx没法自己自动地在根目录创建temp文件夹
+
+解决1：
+
+        自己在nginx根目录手动创建一个temp目录
 
 #### 特技
 

@@ -1325,3 +1325,20 @@
 2021/01/09 16:58:42 [error] 19348#20100: *398 CreateFile() "F:/company/data-retrieval//static/css/bulma_switch.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /patent/static/css/bulma_switch.css HTTP/1.1", host: "127.0.0.1:7001", referrer: "http://127.0.0.1:7001/patent/detail.html?patent_id=CN109124138A"
 2021/01/09 16:58:42 [error] 19348#20100: *398 CreateFile() "F:/company/data-retrieval//static/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /patent/static/js/axios.min.map HTTP/1.1", host: "127.0.0.1:7001"
 2021/01/11 17:55:32 [notice] 8616#1476: signal process started
+2021/04/02 09:33:12 [emerg] 30300#18844: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:33:22 [emerg] 9588#29516: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:35:50 [notice] 28780#22884: signal process started
+2021/04/02 09:35:50 [error] 28780#22884: OpenEvent("Global\ngx_stop_9324") failed (2: The system cannot find the file specified)
+2021/04/02 09:36:03 [emerg] 33036#680: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:36:21 [emerg] 31280#13872: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:37:53 [emerg] 32640#17800: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:38:07 [notice] 1752#28852: signal process started
+2021/04/02 09:38:07 [error] 1752#28852: OpenEvent("Global\ngx_reload_9324") failed (2: The system cannot find the file specified)
+2021/04/02 09:38:44 [emerg] 26232#31964: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:39:22 [emerg] 31944#11304: CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/04/02 09:41:45 [error] 21124#33744: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /static HTTP/1.1", upstream: "http://[::1]:8000/static", host: "127.0.0.1:7001"
+2021/04/02 09:41:47 [error] 21124#33744: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /static HTTP/1.1", upstream: "http://127.0.0.1:8000/static", host: "127.0.0.1:7001"
+2021/04/02 09:41:47 [error] 21124#33744: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://tomcat-server/favicon.ico", host: "127.0.0.1:7001", referrer: "http://127.0.0.1:7001/static"
+2021/04/02 09:41:50 [error] 21124#33744: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /static HTTP/1.1", upstream: "http://tomcat-server/static", host: "127.0.0.1:7001"
+2021/04/02 09:41:50 [error] 21124#33744: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://tomcat-server/favicon.ico", host: "127.0.0.1:7001", referrer: "http://127.0.0.1:7001/static"
+2021/04/02 09:42:07 [notice] 15136#25076: signal process started
