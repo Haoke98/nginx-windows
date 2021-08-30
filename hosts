@@ -17,19 +17,21 @@
 #       38.25.63.10     x.acme.com              # x client host
 
 # localhost name resolution is handled within DNS itself.
-127.0.0.1                localhost	DESKTOP-5B40121
-::1	             localhost	DESKTOP-5B40121
-134.170.104.218  	onedrive.live.com
-184.84.40.133     	api.onedrive.live.com
-134.170.108.176    	skyapi.onedrive.live.com
-127.0.0.1                   activate.navicat.com
-17.253.144.10           icloud.com
-13.229.188.59         github.com
-185.199.109.153          assets-cdn.github.com
-151.101.109.194       github.global.ssl.fastly.net
+127.0.0.1            localhost	                        DESKTOP-5B40121
+::1	                 localhost	                        DESKTOP-5B40121
+134.170.104.218  	 onedrive.live.com
+184.84.40.133     	 api.onedrive.live.com
+134.170.108.176    	 skyapi.onedrive.live.com
+127.0.0.1            activate.navicat.com
+17.253.144.10        icloud.com
+13.229.188.59        github.com
+185.199.109.153      assets-cdn.github.com
+151.101.109.194      github.global.ssl.fastly.net
 151.101.228.223      pypi.python.org
-203.208.39.226	developer.android.google.cn
+203.208.39.226	     developer.android.google.cn
 180.163.151.161      dl.google.com
 185.199.110.153      gin-gonic.com
-17.111.103.15      gs.apple.com
-127.0.0.1          web.izbasar.link.localhost
+17.111.103.15        gs.apple.com
+127.0.0.1            web.izbasar.link.localhost
+1.117.112.57         p.umiware.com
+121.4.105.111        ceshishangcheng.xjip.info
