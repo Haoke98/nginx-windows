@@ -16,15 +16,16 @@
 #### 使用说明
 
     1.  在终端进入到解压后的根目录
-    2.  启动（nginx-windows)      start nginx
-    3.  验证配置文件的准确性：      nginx -t
-    4.  启动：                     nginx -s start
-    5.  配置文件修改重载：          nginx -s reload
-    6.  快速停止或关闭              nginx -s stop
-    7.  正常停止或关闭              nginx -s quit
-    8.  查看nginx版本号             nignx -V
-    9.  查看帮助信息                nginx -h
-    10.  打开日志文件               nginx -s reopen
+    2.  启动（nginx-windows)                start nginx
+    3.  验证配置文件的准确性：                 nginx -t
+    4.  启动：                              nginx -s start
+    5.  配置文件修改重载：                    nginx -s reload
+    6.  快速停止或关闭                       nginx -s stop
+    7.  正常停止或关闭                         nginx -s quit
+    8.  查看nginx版本号                      nignx -V
+    9.  查看帮助信息                          nginx -h
+    10.  打开日志文件                         nginx -s reopen
+    11. 彻底杀掉Windows上的所有nginx进程   taskkill /IM nginx.exe /F
 
 
 #### 参与贡献
