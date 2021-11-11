@@ -1,36 +1,84 @@
-# NginxWindows
+<div align="center">
+<img width="200" height="160" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171106%2F6ee4bf83716845c1bf72455b42f5b88b.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639213528&t=2f0f5b0bf8ec843a03633aea29cdf5f6"/>
+<img width="200" height="160" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F03%2F65%2F24%2F5bdff5304ed51_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639213705&t=b4fce45be9cd7a1fc9a58079fadc1a4b"/>
 
-#### 介绍
-    Nginx高性能的HTTP和反向代理web服务器的Windows平台版本和相关配置
-    版本：1.18.0
+# Nginx-Windows
+简体中文 |  [English](./README.en.md)
+<p>Nginx高性能的HTTP和反向代理web服务器的Windows平台版本和相关配置</p>
+<p>版本：1.18.0</p>
+</div>
+
+[![Website](<https://img.shields.io/badge/ good luck - vue admin beautiful -blue?style=flat-square>)](https://vue-admin-beautiful.com)
+[![stars](https://img.shields.io/github/stars/chuzhixin/vue-admin-beautiful?style=flat-square&logo=GitHub)](https://github.com/chuzhixin/vue-admin-beautiful)
+[![star](https://gitee.com/chu1204505056/vue-admin-beautiful/badge/star.svg?theme=gray)](https://gitee.com/chu1204505056/vue-admin-beautiful)
+[![license](https://img.shields.io/github/license/chuzhixin/vue-admin-beautiful?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License)
+
 
 #### 软件架构
-软件架构说明
+
+    软件架构说明
 
 
 #### 安装教程
 
-1.  直接下载下来压缩包解压缩 或者 git clone
-2.  修改conf目录里的nginx.conf
+    1. 直接下载下来压缩包解压缩 或者 git clone
+    2. 修改conf目录里的nginx.conf
 
-#### 使用说明
+#### 命令大全
+###### 1.启动（nginx-windows)
+```bash
+start nginx
+```
+###### 2.验证配置文件的准确性：
+```bash
+nginx -t
+```
+###### 3.启动：
+```bash
+nginx -s start
+```
+###### 2.验证配置文件的准确性：
+```bash
+nginx -t
+```
+###### 3.配置文件修改重载：
+```bash
+nginx -s reload
+```
+###### 4.快速停止或关闭：
+```bash
+nginx -s stop
+```
+###### 5.正常停止或关闭
+```bash
+nginx -s quit
+```
+###### 6.查看nginx版本号
+```bash
+nignx -V
+```
+###### 7.查看帮助信息
+```bash
+nginx -h
+```
+###### 8.打开日志文件
+```bash
+nginx -s reopen
+```
+###### 9.彻底杀掉Windows上的所有nginx进程
+```bash
+taskkill /IM nginx.exe /F
+```
+###### 10.快速生效host文件的修改
+```bash
+ipconfig /flushdns
+```
 
-    1.  在终端进入到解压后的根目录
-    2.  启动（nginx-windows)                start nginx
-    3.  验证配置文件的准确性：                 nginx -t
-    4.  启动：                              nginx -s start
-    5.  配置文件修改重载：                    nginx -s reload
-    6.  快速停止或关闭                       nginx -s stop
-    7.  正常停止或关闭                         nginx -s quit
-    8.  查看nginx版本号                      nignx -V
-    9.  查看帮助信息                          nginx -h
-    10.  打开日志文件                         nginx -s reopen
-    11. 彻底杀掉Windows上的所有nginx进程   taskkill /IM nginx.exe /F
 
 
 #### 参与贡献
 
-1.  萨达木·沙地克（Sadam·Sadik）1903249375@qq.com
+
 
 #### 报错解答
 报错1：
@@ -43,6 +91,37 @@
 解决1：
 
         自己在nginx根目录手动创建一个temp目录
+## 框架杰出贡献者
+<div align="center">
+    <a href="https://gitee.com/sadam98" target="_blank">
+    <img width="50px" style="border-radius:999px" src="https://portrait.gitee.com/uploads/avatars/user/1882/5648408_sadam98_1580052770.png!avatar200"/>
+    </a>
+    <div>萨达木·沙地克</div>
+    <div>Sadam·Sadik</div>
+    <div>1903249375@qq.com</div>
+</div>
+
+## 联系我们
+
+- 请我们喝杯咖啡，支付后联系 QQ 1903249375 邀请您进入讨论群（由于用户数较多，如果您打赏后未通过好友请求，请在支付宝支付页面选择联系商家），不管您请还是不请，您都可以享受到开源的代码，感谢您的支持和信任，群内提供
+基础版本、开发工具自动配置教程及项目开发文档。
+
+<table>
+<tr>
+<!-- <td>
+<img width="200px" src="https://gitee.com/chu1204505056/image/raw/master/qq_group/hbm.jpg">
+</td> -->
+<td>
+<img width="200px" src="http://59.110.225.84/static/sdm/qr_qq.png">
+</td>
+<td>
+<img width="200px" src="http://59.110.225.84/static/sdm/qr_alipay.png">
+</td>
+<td>
+<img width="200px" src="http://59.110.225.84/static/sdm/qr_wechat.png">
+</td>
+</tr>
+</table>
 
 #### 特技
 
