@@ -8,7 +8,7 @@
 <p>版本：1.18.0</p>
 </div>
 
-[![Website](<https://img.shields.io/badge/ good luck - vue admin beautiful -blue?style=flat-square>)](https://gitee.com/sadam98/nginx-windows)
+[comment]: <> ([![Website]&#40;<https://img.shields.io/badge/ good luck - vue admin beautiful -blue?style=flat-square>&#41;]&#40;https://gitee.com/sadam98/nginx-windows&#41;)
 [![stars](https://img.shields.io/github/stars/chuzhixin/vue-admin-beautiful?style=flat-square&logo=GitHub)](https://gitee.com/sadam98/nginx-windows)
 [![star](https://gitee.com/chu1204505056/vue-admin-beautiful/badge/star.svg?theme=gray)](https://gitee.com/sadam98/nginx-windows)
 [![license](https://img.shields.io/github/license/chuzhixin/vue-admin-beautiful?style=flat-square)](https://gitee.com/sadam98/nginx-windows/blob/master/LICENSE)
