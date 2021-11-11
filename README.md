@@ -8,10 +8,10 @@
 <p>版本：1.18.0</p>
 </div>
 
-[![Website](<https://img.shields.io/badge/ good luck - vue admin beautiful -blue?style=flat-square>)](https://vue-admin-beautiful.com)
-[![stars](https://img.shields.io/github/stars/chuzhixin/vue-admin-beautiful?style=flat-square&logo=GitHub)](https://github.com/chuzhixin/vue-admin-beautiful)
-[![star](https://gitee.com/chu1204505056/vue-admin-beautiful/badge/star.svg?theme=gray)](https://gitee.com/chu1204505056/vue-admin-beautiful)
-[![license](https://img.shields.io/github/license/chuzhixin/vue-admin-beautiful?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License)
+[![Website](<https://img.shields.io/badge/ good luck - vue admin beautiful -blue?style=flat-square>)](https://gitee.com/sadam98/nginx-windows)
+[![stars](https://img.shields.io/github/stars/chuzhixin/vue-admin-beautiful?style=flat-square&logo=GitHub)](https://gitee.com/sadam98/nginx-windows)
+[![star](https://gitee.com/chu1204505056/vue-admin-beautiful/badge/star.svg?theme=gray)](https://gitee.com/sadam98/nginx-windows)
+[![license](https://img.shields.io/github/license/chuzhixin/vue-admin-beautiful?style=flat-square)](https://gitee.com/sadam98/nginx-windows/blob/master/LICENSE)
 
 
 #### 软件架构
