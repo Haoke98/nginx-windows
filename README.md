@@ -108,9 +108,6 @@ ipconfig /flushdns
 
 <table>
 <tr>
-<!-- <td>
-<img width="200px" src="https://gitee.com/chu1204505056/image/raw/master/qq_group/hbm.jpg">
-</td> -->
 <td>
 <img width="200px" src="http://59.110.225.84/static/sdm/qr_qq.png">
 </td>
