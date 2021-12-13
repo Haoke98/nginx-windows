@@ -94,14 +94,14 @@ ipconfig /flushdns
 
 
 #### 报错解答
-报错1：
+##### 报错1：
 
         nginx: [emerg] CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
-原因1：
+###### 原因：
 
         因为nginx被安装在了中文目录，或者路径中有中文汉字，所以nginx没法自己自动地在根目录创建temp文件夹
 
-解决1：
+###### 解决：
 
         自己在nginx根目录手动创建一个temp目录
 ## 框架杰出贡献者
@@ -133,7 +133,7 @@ ipconfig /flushdns
 </tr>
 </table>
 
-#### 常见问题汇总
+## 常见问题汇总
 
 1. [Windows上的80端口被占用问题](https://www.cnblogs.com/selier/p/9514426.html)
 2. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
