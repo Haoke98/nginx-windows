@@ -26,21 +26,12 @@
 #### 使用教程
 
 ##### Nginx相关命令
-
-###### 1.启动（nginx-windows)
-
-```bash
+###### 3.启动：
+####### Windows：
+```bas7h
 start nginx
 ```
-
-###### 2.验证配置文件的准确性：
-
-```bash
-nginx -t
-```
-
-###### 3.启动：
-
+####### Linux/Mac:
 ```bash
 nginx -s start
 ```
