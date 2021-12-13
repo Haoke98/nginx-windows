@@ -18,22 +18,29 @@
 
     软件架构说明
 
-
 #### 安装教程
 
     1. 直接下载下来压缩包解压缩 或者 git clone
     2. 修改conf目录里的nginx.conf
 
-#### 命令大全
+#### 使用教程
+
+##### Nginx相关命令
+
 ###### 1.启动（nginx-windows)
+
 ```bash
 start nginx
 ```
+
 ###### 2.验证配置文件的准确性：
+
 ```bash
 nginx -t
 ```
+
 ###### 3.启动：
+
 ```bash
 nginx -s start
 ```
@@ -69,7 +76,13 @@ nginx -s reopen
 ```bash
 taskkill /IM nginx.exe /F
 ```
-###### 10.快速生效host文件的修改
+
+##### 修改Window上的Hosts文件
+###### 系统中找到Hosts文件
+> 地址：C:\Windows\System32\drivers\etc 
+
+![stars](./static/微信截图_20211214021420.png)
+###### 快速生效host文件的修改
 ```bash
 ipconfig /flushdns
 ```
@@ -120,11 +133,10 @@ ipconfig /flushdns
 </tr>
 </table>
 
-#### 特技
+#### 常见问题汇总
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. [Windows上的80端口被占用问题](https://www.cnblogs.com/selier/p/9514426.html)
+2. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+3. [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+4. Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+5. Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
