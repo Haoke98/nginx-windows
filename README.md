@@ -14,85 +14,85 @@
 [![license](https://img.shields.io/github/license/chuzhixin/vue-admin-beautiful?style=flat-square)](https://gitee.com/sadam98/nginx-windows/blob/master/LICENSE)
 
 
-#### 软件架构
+## 软件架构
 
     软件架构说明
 
-#### 安装教程
+## 安装教程
 
     1. 直接下载下来压缩包解压缩 或者 git clone
     2. 修改conf目录里的nginx.conf
 
-#### 使用教程
+## 使用教程
 
-##### Nginx相关命令
-###### 3.启动：
-####### Windows：
+### Nginx相关命令
+#### 3.启动：
+##### Windows：
 ```bas7h
 start nginx
 ```
-####### Linux/Mac:
+##### Linux/Mac:
 ```bash
 nginx -s start
 ```
-###### 2.验证配置文件的准确性：
+#### 2.验证配置文件的准确性：
 ```bash
 nginx -t
 ```
-###### 3.配置文件修改重载：
+#### 3.配置文件修改重载：
 ```bash
 nginx -s reload
 ```
-###### 4.快速停止或关闭：
+#### 4.快速停止或关闭：
 ```bash
 nginx -s stop
 ```
-###### 5.正常停止或关闭
+#### 5.正常停止或关闭
 ```bash
 nginx -s quit
 ```
-###### 6.查看nginx版本号
+#### 6.查看nginx版本号
 ```bash
 nignx -V
 ```
-###### 7.查看帮助信息
+#### 7.查看帮助信息
 ```bash
 nginx -h
 ```
-###### 8.打开日志文件
+#### 8.打开日志文件
 ```bash
 nginx -s reopen
 ```
-###### 9.彻底杀掉Windows上的所有nginx进程
+#### 9.彻底杀掉Windows上的所有nginx进程
 ```bash
 taskkill /IM nginx.exe /F
 ```
 
-##### 修改Window上的Hosts文件
-###### 系统中找到Hosts文件
+### 修改Window上的Hosts文件
+#### 系统中找到Hosts文件
 > 地址：C:\Windows\System32\drivers\etc 
 
 ![stars](./static/微信截图_20211214021420.png)
-###### 快速生效host文件的修改
+#### 快速生效host文件的修改
 ```bash
 ipconfig /flushdns
 ```
 
 
 
-#### 参与贡献
+## 参与贡献
 
 
 
-#### 报错解答
-##### 报错1：
+## 报错解答
+### 报错1：
 
         nginx: [emerg] CreateDirectory() "E:\myProjects\nginx-windows/temp/client_body_temp" failed (3: The system cannot find the path specified)
-###### 原因：
+#### 原因：
 
         因为nginx被安装在了中文目录，或者路径中有中文汉字，所以nginx没法自己自动地在根目录创建temp文件夹
 
-###### 解决：
+#### 解决：
 
         自己在nginx根目录手动创建一个temp目录
 ## 框架杰出贡献者
