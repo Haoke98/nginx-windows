@@ -63,7 +63,14 @@ nginx -h
 ```bash
 nginx -s reopen
 ```
-#### 9.彻底杀掉Windows上的所有nginx进程
+#### 9.彻底杀掉nginx进程
+##### Linux/Unix
+```bash
+ps -aux | grep nginx
+kill -9 PID
+```
+[^PID]为Nginx进程ID
+##### Windows：
 ```bash
 taskkill /IM nginx.exe /F
 ```
